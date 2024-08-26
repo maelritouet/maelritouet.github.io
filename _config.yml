@@ -1,7 +1,7 @@
 # Site settings
 title: Mael Ritouet # site title
 description: >- # site description
-  A simple website about my progress in cybersecurity> More of me here <a href="https://github.com/maelritouet" target="_blank" rel="noopener">@github</a>.
+  A simple website about my progress in cybersecurity> More of me on <a href="https://github.com/maelritouet" target="_blank" rel="noopener">@github</a>.
 lang: en-US # default lang
 timezone: Europe/Paris # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
