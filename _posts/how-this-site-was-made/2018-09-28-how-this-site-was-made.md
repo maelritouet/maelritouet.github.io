@@ -2,7 +2,7 @@
 title: How this site was born 👶
 date: 2024-08-27 09:45:47 +07:00
 modified: 20124-08-27 09:24:47 +07:00
-tags: [blog, netlify, jekyll, github]
+tags: [blog, netlify, github]
 description: xxx
 image: "/post1/.png"
 ---
