@@ -1,64 +1,104 @@
 ---
 title: How this site was born 👶
-date: 2018-09-28 09:45:47 +07:00
-modified: 2019-08-29 09:24:47 +07:00
+date: 2024-08-27 09:45:47 +07:00
+modified: 20124-08-27 09:24:47 +07:00
 tags: [blog, netlify, jekyll, github]
-description: All the services are free, a source code this site placed on github repository and intergration with netlify service, another service that you can use is github page for hosting your own static site.
+description: xxx
+image: "/post1/.png"
 ---
 
-The website was made using Jekyll the one of open source static sites generator, and using my own simple theme, I called [klisé](https://github.com/piharpi/klise).
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse posuere, diam quis imperdiet sagittis, ipsum orci consectetur tortor, ac convallis libero enim non nulla. In venenatis fermentum ultrices. Sed mauris mauris, rhoncus nec orci at, commodo consectetur orci. Nullam lectus dolor, efficitur condimentum ante condimentum, rhoncus congue mauris. Donec sem mi, imperdiet eu odio sodales, interdum tristique massa. Integer venenatis tellus sed facilisis dignissim. Sed quis lectus leo. Donec vitae vestibulum ligula. Ut tempus luctus sodales. Sed elementum dolor ut enim lacinia, id tincidunt mauris sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed vel dui vitae libero feugiat tincidunt.
 
-<hr>
+<figure>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse posuere, diam quis imperdiet sagittis, ipsum orci consectetur tortor, ac convallis libero enim non nulla. In venenatis fermentum ultrices. Sed mauris mauris, rhoncus nec orci at, commodo consectetur orci. Nullam lectus dolor, efficitur condimentum ante condimentum, rhoncus congue mauris. 
+</figure>
 
-All the services are free, source code the site was placed on my [github](https://github.com/piharpi/mahendrata.now.sh) repository and intergration with ~~[netlify](https://netlify.com)~~ service, another service that you can use is [github page](https://pages.github.com/) for hosting your own static site.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse posuere, diam quis imperdiet sagittis, ipsum orci consectetur tortor, ac convallis libero enim non nulla. In venenatis fermentum ultrices. Sed mauris mauris, rhoncus nec orci at, commodo consectetur orci. Nullam lectus dolor, efficitur condimentum ante condimentum, rhoncus congue mauris. 
 
-<hr>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse posuere, diam quis imperdiet sagittis, ipsum orci consectetur tortor, ac convallis libero enim non nulla. In venenatis fermentum ultrices. Sed mauris mauris, rhoncus nec orci at, commodo consectetur orci. Nullam lectus dolor, efficitur condimentum ante condimentum, rhoncus congue mauris. 
 
-#### Let's do this
+<figure>
+<img src="/post1/1.png" alt="central of operating system">
+<figcaption>Fig 2.</figcaption>
+</figure>
 
-So, before we start create a site, you need some tools, you can self paced for how to installing each tools, on this guide i'm just want to show you how to install jekyll and deploying in netlify, but make sure you have each tools below.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse posuere, diam quis imperdiet sagittis, ipsum orci consectetur tortor, ac convallis libero enim non nulla. In venenatis fermentum ultrices. Sed mauris mauris, rhoncus nec orci at, commodo consectetur orci. Nullam lectus dolor, efficitur condimentum ante condimentum, rhoncus congue mauris. 
 
-#### Prerequisites
+<figure>
+<img src="/post1/shell.png" alt="shell">
+<figcaption>Fig 3</figcaption>
+</figure>
 
-Requirements before we doing magic show.
+<mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse posuere, diam quis imperdiet sagittis, ipsum orci consectetur tortor, ac convallis libero enim non nulla. In venenatis fermentum ultrices. Sed mauris mauris, rhoncus nec orci at, commodo consectetur orci. Nullam lectus dolor, efficitur condimentum ante condimentum, rhoncus congue mauris. </mark>
 
-- [Ruby](https://www.ruby-lang.org/en/downloads/) programming language
-- [Git](https://git-scm.com) (version control)
-- [Netlify](https://netlify.com) and [Github](https://github.com) account
-- [Bundler](https://bundler.io)
-
-#### Installation
-
-First, you need some [SSG](https://www.staticgen.com/), there are many kind ssg, but in case i'm using Jekyll cause i'm already familiar with it, open your terminal and type command on below
-
-```bash
-$ bundle install jekyll # installing jekyll in your machine
-$ jekyll new my-site && cd my-site # create new jekyll project
-$ jekyll s # run jekyll server
-```
-
-Now, jekyll is running on your local machine, open your browser and go to `localhost:4000` is default address from jekyll, press <kbd>CTRL</kbd> + <kbd>C</kbd> to stop the jekyll server.
-
-#### Adding remote repository
-
-Before we adding remote repository, you must have [github](https://github.com/new) repository, if already have repository, just add github remote address to your local folder, with the following commands
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse posuere, diam quis imperdiet sagittis, ipsum orci consectetur tortor, ac convallis libero enim non nulla. In venenatis fermentum ultrices. Sed mauris mauris, rhoncus nec orci at, commodo consectetur orci. Nullam lectus dolor, efficitur condimentum ante condimentum, rhoncus congue mauris. 
 
 ```bash
-$ git init # initializing project folder
-$ git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO.git # change UPPERCASE with your own!
-$ git add -A && git commit -m "Initialize" && git push -u origin master # push code to github
+$ echo $SHELL
+# atau
+$ echo $0
 ```
 
-Now check your github repository, make sure the files is uploaded correctly.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse posuere, diam quis imperdiet sagittis, ipsum orci consectetur tortor, ac convallis libero enim non nulla. In venenatis fermentum ultrices. Sed mauris mauris, rhoncus nec orci at, commodo consectetur orci. Nullam lectus dolor, efficitur condimentum ante condimentum, rhoncus congue mauris. 
 
-#### Deploying to netlify
+```bash
+$ (dollar sign)   # sh, ksh, bash
+% (percent sign)  # csh, tcsh
+```
 
-Go [netlify](https://netlify.com) dashboard, and following this step.
+##### Terminologi pada shell prompt
 
-1. click `new site from git`, then choose `Github`.
-2. then choose your repository where is the jekyll sources uploaded.
-3. netlify smart enough to configuring, we just need's are hosting's are hosting's are hosting's are hosting to click `Deploy site button`.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse posuere, diam quis imperdiet sagittis, ipsum orci consectetur tortor, ac convallis libero enim non nulla. In venenatis fermentum ultrices. Sed mauris mauris, rhoncus nec orci at, commodo consectetur orci. Nullam lectus dolor, efficitur condimentum ante condimentum, rhoncus congue mauris. 
 
-Wait for moment, and voila..! your site's are hosting and using `.netlify.com` tld, if your website wants to look professional, just buy a domain from your favorite domain store. or if you the first time, I advice using namecheap.com*(isn't sponsor)* \*based on my experienced it provides good service and have various TLDs.
+<figure>
+<img src="/apa-itu-shell/term_shell_prompt.png" alt="shell">
+<figcaption>Fig 4. bagian-bagin dari shell prompt.</figcaption>
+</figure>
 
-So, what you waiting for, just create your own website for free.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse posuere, diam quis imperdiet sagittis, ipsum orci consectetur tortor, ac convallis libero enim non nulla. In venenatis fermentum ultrices. Sed mauris mauris, rhoncus nec orci at, commodo consectetur orci. Nullam lectus dolor, efficitur condimentum ante condimentum, rhoncus congue mauris. 
+
+<figure>
+<img src="/apa-itu-shell/terminal_lscpu.gif" alt="installing nginx in ubuntu">
+<figcaption>Fig 5. menampilkan informasi tentang arsitektur CPU.</figcaption>
+</figure>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse posuere, diam quis imperdiet sagittis, ipsum orci consectetur tortor, ac convallis libero enim non nulla. In venenatis fermentum ultrices. Sed mauris mauris, rhoncus nec orci at, commodo consectetur orci. Nullam lectus dolor, efficitur condimentum ante condimentum, rhoncus congue mauris. 
+
+<figure>
+<img src="/apa-itu-shell/shell_evolution.png" alt="shell evolution">
+<figcaption>Fig 6. evaluasi shell dari tahun ke tahun.</figcaption>
+</figure>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit.  `sh`
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+- Bourne again shell `bash`
+  <a href="http://" target="_blank" rel="noopener">
+
+
+```bash
+# command
+$ sudo chsh [options] [LOGIN]
+
+# contoh penggunaan
+$ sudo chsh -s /user/bin/zsh harpi
+# mengubah default shell user harpi menjadi zsh shell.
+$ reboot
+
+# atau kamu juga bisa mengubah file /etc/passwd dan edit secara manual user shellnya.
+# jika masih bingung manfaatkan perintah man untuk melihat manual page.
+$ man chsh
+```
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+
+##### Notes
+
+<small id="user-ref"><sup>[[1]](#user)</sup> Manusia yang mengoperasikan dan mengendalikan sistem komputer.</small>
+
+##### Resources
+
+- [Evolution shells in Linux](http://developer.ibm.com/tutorials/l-linux-shells/)
+- [Kernel Defintion](http://www.linfo.org/kernel.html)
+- [The Shell](http://www.cis.rit.edu/class/simg211/unixintro/Shell.html)
