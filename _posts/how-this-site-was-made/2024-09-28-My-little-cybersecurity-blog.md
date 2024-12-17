@@ -1,5 +1,5 @@
 ---
-title: How this site was born 👶
+title: My little cybersecurity blog
 date: 2024-08-27 09:45:47 +07:00
 modified: 20124-08-27 09:24:47 +07:00
 tags: [blog, netlify, github]
